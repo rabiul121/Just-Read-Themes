@@ -8,7 +8,7 @@ Open your browser and install **Just Read** Extension from this link (You can al
 
 
 ### Step 2:
-Install fonts from the Fonts folder.
+Install fonts from the **Fonts** folder.
 
 
 ### Step 3:
