@@ -17,7 +17,7 @@ Install fonts from the **[Fonts](Fonts/)** folder.
 
 
 ### Step 3:
-Open **Just Read** extension option.
+Open **Just Read** extension option by Right clicking on the logo.
 
 ![ss1](Screenshots/image1.png)
 
