@@ -4,7 +4,12 @@
 ## How to install:
 
 ### Step 1:
-Open your browser and install **Just Read** Extension from this link (You can also search in google, lol): **[Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)**
+- Clone/download this repository.
+
+![ss1](Screenshots/image6.png)
+
+
+- Open your browser and install **Just Read** Extension from this link (You can also search in google, lol): **[Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)**
 
 
 ### Step 2:
