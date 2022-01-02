@@ -1,5 +1,5 @@
 # Just Read Chrome / Microsoft Edge / Other Chromium Based Browser's Extension to Read articles in a clear and fashionable way.
-## We have made some awesome customization in this CSS stylesheet to make your reading more smooth and healthy for your eyes.
+## I have made some awesome customization in this CSS stylesheet to make your reading more smooth and healthy for your eyes.
 
 ## How to install:
 
@@ -43,3 +43,14 @@ Open an article and click **Just Read** extension option to open reading mode.
 
 
 ![ss1](Screenshots/image9.png)
+
+
+## Copyright
+
+@Md. Rabiul Islam
+
+**Contact:**
+
+- **Email :** <rabiul15@cse.pstu.ac.bd>
+
+- **Facebook :** <https://fb.com/Robiul121>
