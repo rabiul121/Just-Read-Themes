@@ -59,7 +59,7 @@ a[href]:hover {
     margin: 0px auto;
     background-color: rgb(51, 51, 51);
     -webkit-print-color-adjust: exact;
-    max-width: 900px;
+    max-width: 930px;
     border: 3px solid rgb(68, 68, 68);
     border-radius: 50px;
     padding: 30px;
@@ -164,8 +164,8 @@ table tr td,
 table tr th,
 table thead th {
     margin: 3px;
-    padding: 5px;
-    color: #ccc;
+    padding: 10px;
+    color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.25);
     background: rgba(0, 0, 0, 0.1);
 }
