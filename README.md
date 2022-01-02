@@ -8,6 +8,8 @@
 **Follow the instructions from the video:-**
 <https://youtu.be/U25ysLiQrRQ>
 
+[![IMAGE_ALT](https://img.youtube.com/vi/U25ysLiQrRQ/0.jpg)](https://www.youtube.com/watch?v=U25ysLiQrRQ)
+
 
 - Clone/download this repository.
 
