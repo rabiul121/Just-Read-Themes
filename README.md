@@ -36,9 +36,6 @@ Open an article and click **Just Read** extension option to open reading mode.
 ![ss1](Screenshots/image5.png)
 
 
-![ss1](Screenshots/image6.png)
-
-
 ![ss1](Screenshots/image7.png)
 
 
