@@ -4,6 +4,11 @@
 ## How to install:
 
 ### Step 1:
+
+**Follow the instructions from the video:-**
+<https://youtu.be/U25ysLiQrRQ>
+
+
 - Clone/download this repository.
 
 ![ss1](Screenshots/image6.png)
