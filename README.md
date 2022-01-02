@@ -13,7 +13,7 @@
 
 
 ### Step 2:
-Install fonts from the **Fonts** folder.
+Install fonts from the **[Fonts](Fonts/)** folder.
 
 
 ### Step 3:
