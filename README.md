@@ -1,68 +1,125 @@
-# Just Read Chrome / Microsoft Edge / Other Chromium Based Browser's Extension to Read articles in a clear and fashionable way.
-## I have made some awesome customization in this CSS stylesheet to make your reading more smooth and healthy for your eyes.
 
-## How to install:
+# Just Read — Custom themes for the Just Read extension
 
-### Step 1:
+This repository contains a collection of custom themes and small UX tweaks for the Just Read browser extension (Chromium-based browsers). It also includes an optional summarizer integration that supports OpenAI / Google Gemini API keys so you can generate short summaries of the current article from within the extension.
 
-**Follow the instructions from the video:-**
-<https://youtu.be/U25ysLiQrRQ>
+Key changes in this update
 
-[![IMAGE_ALT](https://img.youtube.com/vi/U25ysLiQrRQ/0.jpg)](https://www.youtube.com/watch?v=U25ysLiQrRQ)
+- Added support for using Gemini/OpenAI APIs to summarize the selected article text from the extension.
 
+- New themes for English and Bengali (Bangla) in Light, Dark and Image-background variants.
 
-- Clone/download this repository.
+- Minor popup and UI tweaks to reduce distractions while reading.
 
-![ss1](Screenshots/image6.png)
+Note: This repo provides theme CSS and instructions to load the extension locally. The summarizer feature requires that you provide your own API key for Gemini or OpenAI.
 
+## Installation (Local/Unpacked extension)
 
-- Open your browser and install **Just Read** Extension from this link (You can also search in google, lol): **[Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)**
+1. Unzip the provided `just-read.zip` file to a folder on your machine.
+2. Open your Chromium-based browser (Chrome, Brave, Microsoft Edge, etc.).
+3. Open the Extensions manager:
 
+   - Chrome/Brave: Menu → More tools → Extensions, or go to chrome://extensions/
 
-### Step 2:
-Install fonts from the **[Fonts](Fonts/)** folder.
+   - Edge: Menu → Extensions, or go to edge://extensions/
+4. Enable "Developer mode" (top-right) and click "Load unpacked".
+5. Select the folder you unzipped in step 1. The extension will be added to the browser.
 
+## Setting up the Summarizer (Gemini / OpenAI)
 
-### Step 3:
-Open **Just Read** extension option by Right clicking on the logo.
+1. Right-click the Just Read extension icon in your browser's extension toolbar and choose "Options".
+2. In the options page, paste your API key for Gemini or OpenAI.
+3. Select the model you want to use (for example: gpt-4o, gpt-4, or a Gemini model) from the model dropdown.
+4. Click Save.
+5. Open any article, activate Just Read, and use the Summarizer feature in the extension UI to generate summaries.
 
-![ss1](Screenshots/image1.png)
+Notes about API keys
 
+- Keep your API key private and never commit it to a public repository.
 
-### Step3:
-Add a new theme and paste the css code in the box and save.
+- This extension does not ship with an API key.
 
+## Themes included
 
-![ss1](Screenshots/image2.png)
+- English: light and dark themes, plus image-background variants.
+- Bengali (Bangla): light, dark and image-background themes, including styles tuned for common Bengali fonts.
+- Fonts are provided under the `Fonts/` folder. Install them on your system if you want to use the shipped fonts.
 
+To install a theme:
 
-![ss1](Screenshots/image3.png)
+1. Open the Just Read Options page (right-click the extension icon → Options).
 
+2. Create a new theme, paste the CSS from any of the files in this repo (or the theme backup folder), and Save.
 
-![ss1](Screenshots/image4.png)
+## Bundled themes (detailed list)
 
+Below is a list of the bundled theme files included in this repository with short descriptions.
 
-### Step 4:
-Open an article and click **Just Read** extension option to open reading mode.
+Dark
 
-![ss1](Screenshots/image5.png)
+English
 
+- `eng-dark-arial.css` — Dark (Arial)
+- `eng-dark-helvatica.css` — Dark (Helvetica)
+- `eng-dark-roboto.css` — Dark (Roboto)
 
-![ss1](Screenshots/image7.png)
+Bengali
 
+- `bn-dark-solaimanlipi.css` — ডার্ক (SolaimanLipi)
 
-![ss1](Screenshots/image8.png)
+Light
 
+English
 
-![ss1](Screenshots/image9.png)
+- `eng-bn-light-noto-serif-ben.css` — Light (Noto Serif Bengali)
+- `eng-lexend.css` — Light (Lexend)
+- `eng-light-georgia.css` — Light (Georgia)
+- `eng-light-open-sans.css` — Light (Open Sans)
+- `eng-light-poppin.css` — Light (Poppins)
+- `english-light-helvatica.css` — Light (Helvetica)
 
+Bengali
 
-## Copyright
+- `bn-ekushy-lalsalu.css` — লালসালু (Ekushy)
+- `bn-light-bangla.css` — Light (Bangla)
+- `bn-light-kalpurush.css` — Light (Kalpurush)
+- `bn-light-solaimanlipi.css` — Light (SolaimanLipi)
+
+Background image (bg_image)
+
+Bengali
+
+- `bn-bg_image-kalpurush.css` — Background image (Kalpurush)
+- `bn-bg_image-solaimanlipi.css` — Background image (SolaimanLipi)
+
+Print
+
+- `print-en.css` — Print (English)
+- `print-bn.css` — Print (Bengali)
+
+## Usage
+
+- Open any article web page.
+- Click the Just Read extension icon to enter reading mode.
+- Choose your theme from the extension option page or use the saved theme from the list.
+- To summarize the article: click the Summarize button (or whichever UI control is present after loading this modification). The extension will call the selected model using the API key you provided and display a short summary.
+
+## Legal / License / Purchase
+
+This modification is provided for educational purposes only. If you enjoy the extension and want the full, packaged experience, please consider purchasing the official version from the original author or the extension marketplace.
+
+If you redistribute any code from this repository, please respect the original author's license and attribution.
+
+## Screenshots
+
+Screenshots are available in the `Screenshots/` folder. Use them to preview themes and options UI.
+
+## Fonts
+
+If you want to use the bundled fonts, install the font files from the `Fonts/` directory on your OS.
+
+## Contact
 
 @Md. Rabiul Islam
 
-**Contact:**
-
-- **Email :** <rabiul15@cse.pstu.ac.bd>
-
-- **Facebook :** <https://fb.com/Robiul121>
+- Email: <robiu121@proton.me>
